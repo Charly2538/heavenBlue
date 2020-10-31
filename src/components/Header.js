@@ -8,7 +8,7 @@ const Header = () => (
 
     {/* <!-- Logo  --> */}
     <div className="s-cross-center s-main-center lg-main-start">
-        <img className="logo" src="https://ed.team/static/images/logo.svg"/>
+        <img className="logo" alt= "Fotito" src="https://ed.team/static/images/logo.svg"/>
     </div>
     <nav className="nav lg-cols-4 s-cross-center ed-grid full">
       
