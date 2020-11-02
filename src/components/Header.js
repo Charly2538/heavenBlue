@@ -17,7 +17,7 @@ const Header = () => (
 
         {/* <!--   Item de menú. Contiene link e ícono     --> */}
         <li className="lg-mr-3">
-          <a className="link s-column s-cross-center active" href="#">
+          <a className="link s-column s-cross-center active" href="www.google.com">
 
             {/* <!--  El ícono sólo se mostrará en la versión móvil  --> */}
             <svg className="icon to-lg s-mb-0">
@@ -27,7 +27,7 @@ const Header = () => (
           </a>
         </li>
         <li className="lg-mr-3">
-          <a className="link s-column s-cross-center" href="#">
+          <a className="link s-column s-cross-center" href="www.google.com">
             <svg className="icon to-lg s-mb-0">
               <use href="#studies"></use>
             </svg>
@@ -35,7 +35,7 @@ const Header = () => (
           </a>
         </li>
         <li className="lg-mr-3">
-          <a className="link s-column s-cross-center" href="#">
+          <a className="link s-column s-cross-center" href="www.google.com">
             <svg className="icon to-lg s-mb-0">
               <use href="#courses"></use>
             </svg>
@@ -43,7 +43,7 @@ const Header = () => (
           </a>
         </li>
         <li>
-          <a className="link s-column s-cross-center" href="#">
+          <a className="link s-column s-cross-center" href="www.google.com">
             <svg className="icon to-lg s-mb-0">
               <use href="#notes"></use>
             </svg>

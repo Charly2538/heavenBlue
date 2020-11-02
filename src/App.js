@@ -1,15 +1,18 @@
 import React from 'react';
-import Header from './components/Header';
-import Card from './components/Card';
+/* import Header from './components/Header';
+import Card from './components/Card'; */
 import Banner from './components/Banner';
-/* import Grid from './components/Grid'; */
-import Topbar from './components/Topbar';
+/* import Grid from './components/Grid';
+import Topbar from './components/Topbar'; */
+import Formulario from './components/Formulario';
 
 import "./styles/styles.scss";
 
 
 
-const cursos = [
+/* Cursos o productos del card */
+
+/* const cursos = [
   {
     "title": "React desde cero",
     "image": "https://p1.pxfuel.com/preview/818/647/741/dog-nature-animal-doggy.jpg",
@@ -67,14 +70,22 @@ const cursos = [
   },
 
 ]
+ */
 
-const App = () => (
+ const App = () => (
 
   <>
+<Banner />
 
-    <Topbar />
-    <Header />
-    <Banner />
+<Formulario />
+
+
+
+
+
+{/*     <Topbar />
+    <Header /> */}
+    
     {/* <Grid /> */}
 
   {/*   <Card 
@@ -93,12 +104,14 @@ const App = () => (
  */}
   
 
-  <div className="ed-grid m-grid-2">
+{/* Card de Cursos o productos */}
+
+{/*   <div className="ed-grid m-grid-2">
 {
   cursos.map( c => <Card title={c.title} image={c.image} price={c.price} profesor={c.profesor} />)
 }
 
-  </div>
+  </div> */}
 
 
   </>
