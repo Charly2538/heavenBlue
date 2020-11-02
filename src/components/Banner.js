@@ -11,7 +11,7 @@ const Banner = () => (
       <div className="main-banner__data s-center">
         <p className="t2 s-mb-0">Tienda de ropa para lomitos</p>
         <p> Bonito, bueno y barato</p>
-        <a href="www.google.com" className="button">¡Pon a tu consentido a la moda!</a>
+        <a href="curso" className="button">¡Pon a tu consentido a la moda!</a>
       </div>
     </div>
   </div>
